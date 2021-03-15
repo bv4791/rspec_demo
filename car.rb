@@ -12,7 +12,7 @@ class Car
     end
 
     def rang
-    0
+    @fuel * MILES_PER_GALLON
     end
 end
 
